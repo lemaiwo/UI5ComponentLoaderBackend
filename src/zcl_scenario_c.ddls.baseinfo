@@ -1,0 +1,17 @@
+{
+"BASEINFO":
+{
+"FROM":
+[
+"ZCL_SCENARIO",
+"ZCL_SCENARIO_T"
+],
+"ASSOCIATED":
+[],
+"BASE":
+[],
+"ANNO_REF":
+[],
+"VERSION":0
+}
+}
