@@ -1,0 +1,3 @@
+sap.ui.define(["../controllers/BaseController"],function(t){"use strict";return t.extend("be.wl.zcomploaderlib.cl.BaseController",{onInit:function(){if(this.onUpdateInput){this.getEventBus().subscribe("cep","input",this.onUpdateInput,this);let t=this.get+
+ComponentProperty("input");if(t){this.onUpdateInput("cep","input",t)}}},getComponentProperty:function(t){return this.getOwnerComponent().getProperty(t)},getEventBus:function(){return this.getOwnerComponent().getEventBus()},onExit:function(){if(this.onUpd+
+ateInput){this.getEventBus().unsubscribe("cep","input",this.updateInput,this)}}})});                                                                                                                                                                           

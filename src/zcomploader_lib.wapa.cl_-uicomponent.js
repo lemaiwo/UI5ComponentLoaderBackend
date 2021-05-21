@@ -1,0 +1,3 @@
+sap.ui.define(["sap/ui/core/UIComponent"],function(t){"use strict";return t.extend("be.wl.zcomploaderlib.cl.UIComponent",{metadata:{properties:{input:{type:"object"}},events:{action:{parameters:{type:"string",level:"string",data:{type:"object"}}}}},init:+
+function(){var e=this.getComponentData();if(e&&typeof e.input==="object"){this.setInput(e.input)}t.prototype.init.apply(this,arguments)},setInput:function(t){var e=this.getEventBus();if(t){e.publish("cep","input",t)}this.setProperty("input",t);return thi+
+s}})});                                                                                                                                                                                                                                                        

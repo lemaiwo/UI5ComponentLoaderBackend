@@ -1,0 +1,3 @@
+"use strict";sap.ui.define(["be/wl/zcomploaderlib/objects/BaseService","sap/ui/model/Sorter","sap/ui/model/Filter","sap/ui/model/FilterOperator"],function(e,i,t,r){"use strict";var s=e.extend("be.elia.bc.CentralEntryPointApp.service.ScenarioService",{con+
+structor:function i(t){this.scenarioTitles={};e.call(this,t)},getTitle:function e(i){var t=this;if(this.scenarioTitles[i]){return Promise.resolve(this.scenarioTitles[i])}return this.odata("/zcl_scenario_c('"+i+"')").get().then(function(e){t.scenarioTitle+
+s[i]=e;return e})}});return s});                                                                                                                                                                                                                               

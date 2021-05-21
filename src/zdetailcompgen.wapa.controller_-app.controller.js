@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["be/wl/zcomploaderlib/cl/BaseController","sap/ui/model/json/JSONModel"],function(t,e){"use strict";return t.extend("be.wl.detailcomponentgeneric.controller.App",{onInit:function n(){t.prototype.onInit.apply(this,arguments);thi+
+s.setModel(new e)},onUpdateInput:function t(n,i,o){this.data=o;this.setModel(new e({data:JSON.stringify(o)}))},onAfterRendering:function t(){this.setModel(new e({data:JSON.stringify(this.data)}))}})});                                                      

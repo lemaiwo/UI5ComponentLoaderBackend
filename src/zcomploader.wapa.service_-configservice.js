@@ -1,0 +1,3 @@
+"use strict";sap.ui.define(["be/wl/zcomploaderlib/objects/BaseService","sap/ui/model/Sorter","sap/ui/model/Filter","sap/ui/model/FilterOperator"],function(e,r,t,a){"use strict";var o=e.extend("be.wl.CompLoaderApp.service.ConfigService",{constructor:funct+
+ion r(t){e.call(this,t)},getConfig:function e(r){var o=[];o.push(new t({path:"scenario",operator:a.EQ,value1:r.id}));o.push(new t({path:"type",operator:a.EQ,value1:r.type}));return this.odata("/zcl_config_c").get({filters:o,urlParameters:{$expand:"toPara+
+ms"}})}});return o});                                                                                                                                                                                                                                          

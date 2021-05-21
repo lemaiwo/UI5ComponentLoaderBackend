@@ -1,0 +1,1 @@
+sap.ui.define([],function(){"use strict";var e={Navigate:"Navigate",NavigateToLevel:"NavigateToLevel",Back:"Back",Refresh:"Refresh",ForceRefresh:"ForceRefresh",RefreshPrevious:"RefreshPrevious",None:"None"};return e});                                     
